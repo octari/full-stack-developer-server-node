@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch } from "react-redux";
-import TuitStats from '../TuitStats';
+import TuitStats from '../TuitStats/index.js';
+import {deleteTuit} from "./tuits-actions.js";
 
 const DEFAULT_PROFILE = "https://t4.ftcdn.net/jpg/02/15/84/43/240_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg"
 const PostItem = ({ post }) => {
